@@ -22,19 +22,19 @@
 
 # This is a simple scoreboard with only the top and bottom lines animated
 simple:
-  titles: '&7&LYour&6&lServer'
+  titles: '&7&LWave&6&lSmp'
   scores:
     13:
       - '&7&m+----------------+'
       - '&7&m------------------'
-    12: '&7» &6&lPlayer'
-    11: '    &7%player%'
+    12: '&7» &6&lPing'
+    11: '    &7'%player_ping%'
     10: ''
-    9: '&7» &6&lHealth'
-    8: '    %hearts%'
+    9: '&7» &6&lKills'
+    8: '    %killstats_kills%'
     7: ''
-    6: '&7» &6&lWorld'
-    5: '    &7%world%'
+    6: '&7» &6&lTeam'
+    5: '    &7'%team_name%'
     4: ''
     3: '&7» &6&lOnline Players'
     2: '    &7%online% &6players'
